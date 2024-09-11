@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CIBJ Group</title>
+	<meta charset="UTF-8">
+	<title>CI Benito Juárez</title>
 	<!--PWA-->
 	<link rel="manifest" href="./manifest.json"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+	
 </head> 
 <body>
  
@@ -125,49 +129,43 @@
  							<a href="#">Ramo Directivo <i class="fas fa-angle-down"></i></a>
  							<div class="sub-menu single-column-menu">
  								<ul>
- 									<li><a href="#">Standard Layout</a></li>
- 									<li><a href="#">Grid Layout</a></li>
- 									<li><a href="#">single Post Layout</a></li>
+ 									<li><a href="#">CI Benito Juárez</a></li>
+ 									<li><a href="#">CI Benito Juárez</a></li>
+ 									<li><a href="#">CI Benito Juárez</a></li>
  								</ul>
  							</div>
  						</li>
- 						<li class="menu-item-has-children">
- 							<a href="#">Ramo Ejecutivo <i class="fas fa-angle-down"></i></a>
- 							<div class="sub-menu single-column-menu">
- 								<ul>
- 									<li><a href="#">Login</a></li>
- 									<li><a href="#">Register</a></li>
- 									<li><a href="#">Faq</a></li>
- 									<li><a href="#">404 Page</a></li>
- 								</ul>
- 							</div>
- 						</li>
-						 <li class="menu-item-has-children">
-							<a href="#">Ramo Operativo <i class="fas fa-angle-down"></i></a>
-							<div class="sub-menu single-column-menu">
-								<ul>
-									<li><a href="#">Login</a></li>
-									<li><a href="#">Register</a></li>
-									<li><a href="#">Faq</a></li>
-									<li><a href="#">404 Page</a></li>
-								</ul>
-							</div>
-						</li>
+ 			
+				
  						<li>
- 							<a href="#">Contact</a>
+ 							<a href="./contacto/sobre-nosotros.html">Contacto</a>
  						</li>
+
+
+						 <li >
+                            <a  style="display: none;" class="logged-out "  href="#" data-toggle="modal" data-target="#signinModal">Accede</a>
+                        </li>
+                       
+                        <li >
+							<a class="logged-in menu-item" style="display: none;"  href="./mi-espacio/noticias.html">Noticias</a>
+						</li>
+                        <li >
+							<a href="#" style="display: none;" class="boton-salir logged-in" id="logout" onclick="noticias()">Salir</a></li>
+
  					</ul>
  				</nav>
  			</div>
  			<!-- menu end here -->
  			<div class="header-item item-right">
- 				<a href="#"><i class="fas fa-search"></i></a>
- 				<a href="#"><i class="far fa-heart"></i></a>
- 				<a href="#"><i class="fas fa-shopping-cart"></i></a>
+ 				<a href="#"><i class="fab fa-tiktok"></i></a>
+ 				<a href="#"><i class="fab fa-facebook"></i></a>
+ 				<a href="#"><i class="fab fa-instagram"></i></a>
  				<!-- mobile menu trigger -->
  				<div class="mobile-menu-trigger">
+					
  					<span></span>
  				</div>
+				
  			</div>
  		</div>
  	</div>
@@ -181,12 +179,12 @@
 		  <div class="slide is-active ">
 			<div class="slide-content">
 			  <div class="caption">
-				<div class="title">Slide title 1</div>
+				<div class="title">Titulo</div>
 				<div class="text">
-				  <p>Slide description 1</p>
+				  <p>Descripción</p>
 				</div> 
 				<a href="#" class="btn">
-				  <span class="btn-inner">Learn More</span>
+				  <span class="btn-inner">Ver más</span>
 				</a>
 			  </div>
 			</div>
@@ -197,12 +195,12 @@
 		  <div class="slide">
 			<div class="slide-content">
 			  <div class="caption">
-				<div class="title">Slide title 2</div>
+				<div class="title">Titulo</div>
 				<div class="text">
-				  <p>Slide description 2</p>
+				  <p>Descripción 2</p>
 				</div> 
 				<a href="#" class="btn">
-				  <span class="btn-inner">Learn More</span>
+				  <span class="btn-inner">Ver más</span>
 				</a>
 			  </div>
 			</div>
@@ -213,12 +211,12 @@
 		  <div class="slide">
 			<div class="slide-content">
 			  <div class="caption">
-				<div class="title">Slide title 3</div>
+				<div class="title">Titulo</div>
 				<div class="text">
-				  <p>Slide description 3</p>
+				  <p>Descripción 3</p>
 				</div> 
 				<a href="#" class="btn">
-				  <span class="btn-inner">Learn More</span>
+				  <span class="btn-inner">Ver más</span>
 				</a>
 			  </div>
 			</div>
@@ -229,12 +227,12 @@
 		  <div class="slide">
 			<div class="slide-content">
 			  <div class="caption">
-				<div class="title">Slide title 4</div>
+				<div class="title">Titulo</div>
 				<div class="text">
-				  <p>Slide description 4</p>
+				  <p>Descripción</p>
 				</div> 
 				<a href="#" class="btn">
-				  <span class="btn-inner">Learn More</span>
+				  <span class="btn-inner">Ver más</span>
 				</a>
 			  </div>
 			</div>
@@ -279,212 +277,298 @@
 
 
 
-
-
-
-
-  <div class="section section-margin">
-	<div class="container">
-	  <div class="row m-b-n30 align-items-center">
-		<div class="col-lg-6 order-first  m-b-30">
-		  <div class="about-image service-layer-image ">
-			<img class="about-image-1 img-fluid" src="https://template.hasthemes.com/triball/triball/assets/images/about/about-2.png" alt="About Image">
-			<img class="about-image-2 img-fluid" src="https://template.hasthemes.com/triball/triball/assets/images/about/about-3.png" alt="About Image">
-		  </div>
+  <div class="container section">
+	<div class="row">
+		<div class="col-md-6">
+			<h3>
+				Highly Skilled Volunteers
+			</h3>
+			<p>
+				Through its program, TopVolunteer™, GetLance partners with leading nonprofits and NGOs around the world who need high-skilled talent for their volunteer initiatives. Members of the GetLance network are encouraged to offer their skills and experience to these projects, whether to solve a timely problem or to contribute on an ongoing basis.
+			</p>
 		</div>
-		<div class="col-lg-6 m-b-30 order-lg-last">
-		  <div class="about-content mw-100">
-			<div class="banner-content section-heading">
-			  <h5>O NAMA
-			  </h5>
-			  <h2 class="banner-title">NAŠA MISIJA JE NULTA EMISIJA</h2>
-			  <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
-			</div>
-			<!--           <h2 class="title">Fast Service, Talented People <br> Secure Payment</h2> -->
-			<p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main Problems some of the main need more imporvement to solve the business policy</p>
-			<p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main Problems some of the main need more imporvement to solve the business policy</p>
-		  </div>
+		<div class="col-md-6">
+			<img src="https://preview.ibb.co/erdq8p/Employee-1.jpg" alt=""/>
 		</div>
-  
-	  </div>
 	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="https://preview.ibb.co/cu76g9/Employee-2.jpg" alt=""/>
+		</div>
+		<div class="col-md-6">
+			<h3>
+				Cutting-Edge Skill Development
+			</h3>
+			<p>
+			   GetLance Academy hosts regular, rigorous learning sessions for the most in-demand skills. By presenting our elite, experienced network with ongoing opportunities to update and elevate their portfolios, we are able to solve pressing talent shortages while ensuring success for dedicated participants.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+      <!--BOOTSTRAP SCRIPTS-->
+
+<!-- REGISTRO FIREBASE -->
+  <!--MAIN CONTENT-->
+  <div class="container p-5" style="z-index:1">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <ul class="list-group posts">
+                
+        </ul>
+      </div>
+    </div>
   </div>
+  
+  <!--BOOTSTRAP SCRIPTS-->
+  
+      <!-- Modal  SignUP-->
+      <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+            <h6 class="modal-title" id="exampleModalLabel">Registro:
+              Contraseña con al menos 6 caracteres
+            </h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+           </div>
+           <div class="modal-body">
+            <form id="signup-form">
+              <div class="form-group">
+                 <input type="text" id="signup-email" class="form-control"
+                 placeholder="E-mail" required>
+              </div>
+              <div class="form-group">
+                 <input type="password" id="signup-password" class="form-control"
+                 placeholder="Contraseña" required>
+              </div>
+              <button type="submit" class="btn btn-primary">SignUp</button>
+            </form>
+           </div>
+         </div>
+        </div>
+      </div>
+                 
+                 
+                 
+                  <!-- Modal  SignIn-->
+                  <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">Ingresa con tu correo de Gmail a nuestra plataforma y mantente informado sobre
+                          promociones y avisos importantes
+                        </h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                       </div>
+                       <div class="modal-body">
+                          
+                        <form id="login-form">
+                           
+                          <!--div class="form-group">
+                             <input type="text" id="login-email" class="form-control"
+                             placeholder="E-mail" required>
+                          </div>
+                          <div class="form-group">
+                             <input type="password" id="login-password" class="form-control"
+                             placeholder="Contraseña" required>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-info btn-block">Ingresa</button-->
+                          
+                          <button type="button" class="btn btn-success btn-block black-background white" id="googleLogin"><i class="fab fa-google" aria-hidden="true"></i>&nbsp;Ingresa o Regístrate con Gmail</button>
+                          <!--button type="submit" class="btn btn-primary btn-block" id="facebookLogin"><i class="fab fa-facebook"></i>&nbsp;Ingresa o Regístrate con Facebook</button-->
+                        </form>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
 
 
-  <footer class="footer">
+
+
+
+
+
+  <footer class="footer-section">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-lg-4">
-				<div class="widget1">
-					<div class="logo__footer">
-						<img src="./img/logoCI.png" class="img-fluid" alt="">
+		<div class="footer-cta pt-5 pb-5">
+			<div class="row">
+				<div class="col-xl-4 col-md-4 mb-30">
+					<div class="single-cta">
+						<i class="fas fa-map-marker-alt"></i>
+						<div class="cta-text">
+							<h4>Visitanos</h4>
+							<span>México, CDMX</span>
+						</div>
 					</div>
-					<p>
-						In eu libero ligula. Fusce eget metus lorem, ac viverra
-						leo. Nullam convallis, arcu vel pellentesque sodales,
-						nisi est varius diam, ac ultrices sem ante quis sem.
-						Proin ultricies volutpat sapien.
-					</p>
-					<div class="socialLinks">
+				</div>
+				<div class="col-xl-4 col-md-4 mb-30">
+					<div class="single-cta">
+						<i class="fas fa-phone"></i>
+						<div class="cta-text">
+							<h4>Llamanos</h4>
+							<span>5518192532</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-md-4 mb-30">
+					<div class="single-cta">
+						<i class="far fa-envelope-open"></i>
+						<div class="cta-text">
+							<h4>Contactanos</h4>
+							<span>mail@gmail.com</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-content pt-5 pb-5">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 mb-50">
+					<div class="footer-widget">
+						<div class="footer-logo">
+							<a href="index.html">
+								<img src="./img/logoCI.png" class="img-fluid" alt="logo">
+							</a>
+						</div>
+						<div class="footer-text">
+							<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+							elit,Lorem ipsum dolor sit amet.</p>
+						</div>
+						<div class="footer-social-icon">
+							<span>Siguenos</span>
+							<a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+							<a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+					<div class="footer-widget">
+						<div class="footer-widget-heading">
+							<h3>Enlaces</h3>
+						</div>
 						<ul>
-							<li>
-								<a href="#">
-									<i class="fab fa-facebook-f"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fab fa-twitter"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fab fa-linkedin-in"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fab fa-google-plus-g"></i>
-								</a>
-							</li>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Acerca de</a></li>
+							<li><a href="#">Bolsa de Trabajo</a></li>
+							<li><a href="#">Contacto</a></li>
+							<li><a href="#">Contacto</a></li>
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Terminos y Condiciones</a></li>
+							<li><a href="./acerca-de/nuestro-equipo.html">Nuestro Equipo</a></li>
+
 						</ul>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-6 col-lg-4">
-				<div class="widget2">
-					<h5>
-						Latest News
-					</h5>
-					<div class="media">
-						<img class="img-fluid" src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="">
-						<div class="media-body d-flex align-self-center">
-							<div class="content">
-								<a href="#">
-									<p>
-											Did son unreserved themselves indulgence its
-									</p>
-								</a>
-								<span>
-									Aug 17, 2019
-								</span>
-							</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+					<div class="footer-widget">
+						<div class="footer-widget-heading">
+							<h3>CIBJ Group</h3>
 						</div>
-					</div>
-					<div class="media">
-						<img class="img-fluid" src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt="">
-						<div class="media-body d-flex align-self-center">
-							<div class="content">
-								<a href="#">
-									<p>
-											Rapturous am eagerness it as resolving household
-									</p>
-								</a>
-								<span>
-									Aug 17, 2019
-								</span>
-							</div>
+						<div class="footer-text mb-25">
+							<p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
 						</div>
+
+
+						<!--div class="subscribe-form">
+							<form action="#">
+								<input type="text" placeholder="Email Address">
+								<button><i class="fab fa-telegram-plane"></i></button>
+							</form>
+						</div-->
+
+
 					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-2">
-				<div class="widget3">
-					<h5>
-						Quick Links
-					</h5>
-					<ul>
-						<li>
-							<a href="#">
-								Home
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								about
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								contact
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								privecy
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								skills
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								career
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-2">
-				<div class="widget4">
-					<h5>
-						Other Links
-					</h5>
-					<ul>
-						<li>
-							<a href="#">
-								themeforest
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								graphicriver
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								codecanyon
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								videohive
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								redpen
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								codepen
-							</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="copyRightArea">
+	<div class="copyright-area">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 text-center">
-					<p>&copy; Copyright All rights reserved 2019.</p>
+				<div class="col-xl-6 col-lg-6 text-center text-lg-left">
+					<div class="copyright-text">
+						<p>Copyright &copy; 2024 CIBJ Group, Desarrollado by <a href="#">Life Solutions</a></p>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+					<div class="footer-menu">
+						<ul>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Terminos</a></li>
+							<li><a href="#">Privacidad</a></li>
+							<li><a href="#">Galería</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
 
+
+
+          
+                            <!--FIREBASE SCRIPTS-->
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+                        
+                 <!-- TODO: Add SDKs for Firebase products that you want to use
+                https://firebase.google.com/docs/web/setup#available-libraries -->
+                <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+                        
+                <script>
+                   // Your web app's Firebase configuration
+                   var firebaseConfig = {
+                    apiKey: "AIzaSyCrMJ8OtV3mClzDKy9z9g5FpthFIFt-07I",
+                    authDomain: "eduteknet.firebaseapp.com",
+                    projectId: "eduteknet",
+                    storageBucket: "eduteknet.appspot.com",
+                    messagingSenderId: "106114584401",
+                    appId: "1:106114584401:web:031835ec57335d7e22cd70",
+                    measurementId: "G-J1K8XF9ZR0"
+                };
+            
+                                // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      // FireStore base de datos
+      const fs = firebase.firestore();
+      firebase.analytics();
+                </script>
+                <!--TERMINA FIREBASE-->
+
+
+
+      <!--Registro-->
+	  <script src="./registro.js"></script>
+
   <!-- PWA -->
   <script src="./script.js"></script>
+
+
   
  <!--Carrousel-->
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+
+    <!--script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script-->
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
 
 <script src="js/main.js"></script>
 </body>
