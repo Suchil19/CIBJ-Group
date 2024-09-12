@@ -6,13 +6,10 @@
 	<!--PWA-->
 	<link rel="manifest" href="./manifest.json"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-
-	
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/lo-mas-reciente.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'>
 </head> 
 <body>
  
@@ -22,7 +19,7 @@
  		<div class="row__menu v-center">
  			<div class="header-item item-left">
  				<div class="logo">
-                    <img class="logo" src="./img/logoCI.png">&nbsp;
+                    <img class="logo" src="../img/logoCI.png">&nbsp;
                     
                   </a>
  				</div>
@@ -39,7 +36,7 @@
  					</div>
  					<ul class="menu-main">
  						<li>
- 							<a href="#">Inicio</a>
+ 							<a href="../index.html">Inicio</a>
  						</li>
  						<!--li class="menu-item-has-children">
  							<a href="#">New <i class="fa fa-angle-down"></i></a>
@@ -135,14 +132,7 @@
  								</ul>
  							</div>
  						</li>
- 			
-				
- 						<li>
- 							<a href="./contacto/sobre-nosotros.html">Contacto</a>
- 						</li>
-
-
-						 <li >
+                         <li >
                             <a  style="display: none;" class="logged-out "  href="#" data-toggle="modal" data-target="#signinModal">Accede</a>
                         </li>
                        
@@ -152,7 +142,6 @@
                         <li >
 							<a href="#" style="display: none;" class="boton-salir logged-in" id="logout" onclick="noticias()">Salir</a>
 						</li>
-
  					</ul>
  				</nav>
  			</div>
@@ -163,183 +152,27 @@
  				<a href="#"><i class="fab fa-instagram"></i></a>
  				<!-- mobile menu trigger -->
  				<div class="mobile-menu-trigger">
-					
  					<span></span>
  				</div>
-				
  			</div>
  		</div>
  	</div>
  </header>
  <!-- header end -->
  <!-- banner start -->
- <main class="main-content">
-	<section class="slideshow">
-	  <div class="slideshow-inner">
-		<div class="slides">
-		  <div class="slide is-active ">
-			<div class="slide-content">
-			  <div class="caption">
-				<div class="title">Titulo</div>
-				<div class="text">
-				  <p>Descripción</p>
-				</div> 
-				<a href="#" class="btn__slider">
-				  <span class="btn-inner">Ver más</span>
-				</a>
-			  </div>
-			</div>
-			<div class="image-container"> 
-			  <img src="https://images.unsplash.com/photo-1603202662852-aaa285a8ed76?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="image" />
-			</div>
-		  </div>
-		  <div class="slide">
-			<div class="slide-content">
-			  <div class="caption">
-				<div class="title">Titulo</div>
-				<div class="text">
-				  <p>Descripción 2</p>
-				</div> 
-				<a href="#" class="btn__slider">
-				  <span class="btn-inner">Ver más</span>
-				</a>
-			  </div>
-			</div>
-			<div class="image-container">
-			  <img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="image" />
-			</div>
-		  </div>
-		  <div class="slide">
-			<div class="slide-content">
-			  <div class="caption">
-				<div class="title">Titulo</div>
-				<div class="text">
-				  <p>Descripción 3</p>
-				</div> 
-				<a href="#" class="btn__slider">
-				  <span class="btn-inner">Ver más</span>
-				</a>
-			  </div>
-			</div>
-			<div class="image-container">
-			  <img src="https://images.unsplash.com/photo-1552793494-111afe03d0ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="image" />
-			</div>
-		  </div>
-		  <div class="slide">
-			<div class="slide-content">
-			  <div class="caption">
-				<div class="title">Titulo</div>
-				<div class="text">
-				  <p>Descripción</p>
-				</div> 
-				<a href="#" class="btn__slider">
-				  <span class="btn-inner">Ver más</span>
-				</a>
-			  </div>
-			</div>
-			<div class="image-container"> 
-			  <img src="https://images.unsplash.com/photo-1491336477066-31156b5e4f35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="image" />
-			</div>
-		  </div>
-		</div>
-		<div class="pagination">
-		  <div class="item is-active"> 
-			<span class="icon">1</span>
-		  </div>
-		  <div class="item">
-			<span class="icon">2</span>
-		  </div>
-		  <div class="item">
-			<span class="icon">3</span>
-		  </div>
-		  <div class="item">
-			<span class="icon">4</span>
-		  </div>
-		</div>
-		<div class="arrows">
-		  <div class="arrow prev">
-			<span class="svg svg-arrow-left">
-			  <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
-			  <span class="alt sr-only"></span>
-			</span>
-		  </div>
-		  <div class="arrow next">
-			<span class="svg svg-arrow-right">
-			  <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
-			  <span class="alt sr-only"></span>
-			</span>
-		  </div>
-		</div>
-	  </div> 
-	</section>
-  </main>
 
 
 
-  <section class="about-section">
-	<div class="container">
-		<div class="row clearfix">
-			
-			<!--Content Column-->
-			<div class="content-column col-md-6 col-sm-12 col-xs-12">
-				<div class="inner-column">
-					<div class="sec-title">
-						<div class="title">CIBJ Group</div>
-						<h2>Somos Líderes<br> en educación</h2>
-					</div>
-					<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</div>
-					<div class="email">Frase <span class="theme_color">Inspiradora</span></div>
-					<a href="#" class="theme-btn btn-style-three">Ver más</a>
-				</div>
-			</div>
-			
-			<!--Image Column-->
-			<div class="image-column col-md-6 col-sm-12 col-xs-12">
-				<div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
-					<div class="image">
-						<img src="https://images.unsplash.com/photo-1581089784209-f2e9b2e20d3b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-						<div class="overlay-box">
-							<div class="year-box"><span class="number">1º</span>Educación <br> Preparación <br> Trabajo</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
+	<!--HERO IMAGE STARTS HERE-->
+	<div id="parallax-world-of-ugg">
+	<div class="parallax-one">
+		<div id="contenido" class="hero-text">
+			<h1>Equipo</h1>
 
-  <div class="container section">
-	<div class="row">
-		<div class="col-md-6">
-			<h3>
-				Highly Skilled Volunteers
-			</h3>
-			<p>
-				Through its program, TopVolunteer™, GetLance partners with leading nonprofits and NGOs around the world who need high-skilled talent for their volunteer initiatives. Members of the GetLance network are encouraged to offer their skills and experience to these projects, whether to solve a timely problem or to contribute on an ongoing basis.
-			</p>
-		</div>
-		
-		<div class="col-md-6">
-			<img src="https://preview.ibb.co/erdq8p/Employee-1.jpg" alt=""/>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<img src="https://preview.ibb.co/cu76g9/Employee-2.jpg" alt=""/>
-		</div>
-		<div class="col-md-6">
-			<h3>
-				Cutting-Edge Skill Development
-			</h3>
-			<p>
-			   GetLance Academy hosts regular, rigorous learning sessions for the most in-demand skills. By presenting our elite, experienced network with ongoing opportunities to update and elevate their portfolios, we are able to solve pressing talent shortages while ensuring success for dedicated participants.
-			</p>
 		</div>
 	</div>
 </div>
-
-
+<!--HERO IMAGE ENDS-->
 
 
 
@@ -429,10 +262,267 @@
 
 
 
+ <!-- Ui cards -->
+ <section id="cards" data-aos="zoom-in" data-aos-delay="250">
+	<div class="container py-2">
+		<!--div class="row pb-4">
+			<div class="col-12 text-center">
+				<div class="display-3"><h2><span>Clases</span></h2></div>
+			</div>
+		</div-->
+		<!-- cards -->
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">Etapas del desarrollo</p>
+							<div class="small">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star-half-alt text-warning"></i>
+								<i class="fas fa-star text-light"></i>
+							</div>
+							<br>
+							<p class="small text-muted mb-0">
+								<li>1.- Los participantes identificarán estrategias que le permitan acompañar el desarrollo.</li>
+								<li>2. Aprender sobre las crisis del desarrollo de los 0 a los 11 años</li>
+								<li>3. Identificar las señales de alerta en el desarrollo.</li>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 2 horas y 30 minutos</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Padres de familia, docentes, y público en general.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">Lidera tu vida</p>
+							<div class="small">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star-half-alt text-warning"></i>
+								<i class="fas fa-star text-light"></i>
+							</div>
+							<br>
+							<p class="small text-muted mb-0">
+								<li>Propósito: Autoconocimiento. Descubriendo tus fuentes de poder.</li>
+								<li>Dirección: Visualización.</li>
+								<li>Plan de acción: Traza un plan con acciones concretas.</li>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 4 horas</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Público en general, personas en búsqueda de desarrollo personal y profesional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">De las emociones</p>
+							<div class="small">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star-half-alt text-warning"></i>
+								<i class="fas fa-star text-light"></i>
+							</div>
+							<br>
+							<p class="small text-muted mb-0">
+								<li>Propósito: Aprende a identificar lo que ocurre y qué emoción siente.</li>
+								<li>Expresar las emociones de manera asertiva.</li>
+								<li>Aprender a gestionar las emociones de forma positiva.</li>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 4 horas</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Público en general, personas en búsqueda de desarrollo personal y profesional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="https://i.picsum.photos/id/836/130/130.jpg?hmac=Sot_REUw5W-XSuE6FmCjT9JenhZfiNqZYs3AQbfrZsc" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">De las emociones</p>
+							<div class="small">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star-half-alt text-warning"></i>
+								<i class="fas fa-star text-light"></i>
+							</div>
+							<br>
+							<p class="small text-muted mb-0"><h5>
+								Propósito: Conocer alternativas para aplicación de los aceites. Utilización de complementos de la
+								medicina naturista y los aceites.</h5>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 4 horas</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Público en general, personas en búsqueda de desarrollo personal y profesional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="./img/conoceme/4.jpg" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">De las emociones</p>
+							<div class="small">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star-half-alt text-warning"></i>
+								<i class="fas fa-star text-light"></i>
+							</div>
+							<br>
+							<p class="small text-muted mb-0"><h5>
+								Propósito: Conocer alternativas para aplicación de los aceites. Utilización de complementos de la
+								medicina naturista y los aceites.</h5>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 4 horas</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Público en general, personas en búsqueda de desarrollo personal y profesional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-4 pt-5">
+				<div class="card shadow-sm border-0">
+					<div class="card-body">
+						<div class="user-picture">
+							<img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+						</div>
+						<div class="user-content">
+							<h5 class="text-capitalize user-name">Taller</h5>
+							<br>
+							<p class=" text-capitalize text-muted small blockquote-footer">De las emociones</p>
+							<div class="small">
+								<i class="fas fa-book text-warning"></i>
+								
+							</div>
+							<br>
+							<p class="small text-muted mb-0"><h5>
+								Propósito: Conocer alternativas para aplicación de los aceites. Utilización de complementos de la
+								medicina naturista y los aceites.</h5>
+							</p>
+								<br>
+								<p class=" text-capitalize "><i class="fas fa-clock text-warning"></i>&nbsp;Duración: 4 horas</p>
+								<p class=" text-muted small blockquote-footer">Enfocado a: Público en general, personas en búsqueda de desarrollo personal y profesional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /cards -->
+</section>
 
 
 
-  <footer class="footer-section">
+
+<section class="about" id="about">
+	<div class="container">
+		<div class="heading text-center">
+			<h2>About
+				<span>Us</span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				<br>
+				incididunt ut labore et dolore magna aliqua.
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="https://i.ibb.co/qpz1hvM/About-us.jpg" alt="about" class="img-fluid" width="100%">
+			</div>
+			<div class="col-lg-5">
+				<h3>Lorem ipsum dolor sit amet, consectetur </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<div class="container section">
+	<div class="row">
+		<div class="col-md-6">
+			<h3>
+				Highly Skilled Volunteers
+			</h3>
+			<p>
+				Through its program, TopVolunteer™, GetLance partners with leading nonprofits and NGOs around the world who need high-skilled talent for their volunteer initiatives. Members of the GetLance network are encouraged to offer their skills and experience to these projects, whether to solve a timely problem or to contribute on an ongoing basis.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img src="https://preview.ibb.co/erdq8p/Employee-1.jpg" alt=""/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="https://preview.ibb.co/cu76g9/Employee-2.jpg" alt=""/>
+		</div>
+		<div class="col-md-6">
+			<h3>
+				Cutting-Edge Skill Development
+			</h3>
+			<p>
+			   GetLance Academy hosts regular, rigorous learning sessions for the most in-demand skills. By presenting our elite, experienced network with ongoing opportunities to update and elevate their portfolios, we are able to solve pressing talent shortages while ensuring success for dedicated participants.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<footer class="footer-section">
 	<div class="container">
 		<div class="footer-cta pt-5 pb-5">
 			<div class="row">
@@ -471,7 +561,7 @@
 					<div class="footer-widget">
 						<div class="footer-logo">
 							<a href="index.html">
-								<img src="./img/logoCI.png" class="img-fluid" alt="logo">
+								<img src="../img/logoCI.png" class="img-fluid" alt="logo">
 							</a>
 						</div>
 						<div class="footer-text">
@@ -496,10 +586,10 @@
 							<li><a href="#">Acerca de</a></li>
 							<li><a href="#">Bolsa de Trabajo</a></li>
 							<li><a href="#">Contacto</a></li>
-							<li><a href="#">Contacto</a></li>
+							<li><a href="#">Galería</a></li>
 							<li><a href="#">Noticias</a></li>
 							<li><a href="#">Terminos y Condiciones</a></li>
-							<li><a href="./acerca-de/nuestro-equipo.html">Nuestro Equipo</a></li>
+							<li><a href="#">Nuestro Equipo</a></li>
 
 						</ul>
 					</div>
@@ -551,8 +641,6 @@
 </footer>
 
 
-
-          
                             <!--FIREBASE SCRIPTS-->
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
@@ -585,25 +673,18 @@
                 </script>
                 <!--TERMINA FIREBASE-->
 
-
-
-      <!--Registro-->
-	  <script src="./registro.js"></script>
-
   <!-- PWA -->
-  <script src="./script.js"></script>
+  <script src="../script.js"></script>
+ 
 
-
+    <!--Registro-->
+    <script src="./registro.js"></script>
   
  <!--Carrousel-->
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
 
-    <!--script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script-->
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
-
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
 

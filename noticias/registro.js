@@ -149,7 +149,7 @@ auth.onAuthStateChanged(user => {
 
 // Onclick
 function noticias() {
-  document.location.href = "./index.html"
+  document.location.href = "../index.html"
 }
 
 
