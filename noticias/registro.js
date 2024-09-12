@@ -208,7 +208,7 @@ function aparece(user){
  
   <div ">
   <h4 class="alert-heading">${user.email}</h4>
-  <p>Gracias por registrarte.</p>
+  <p>Bienvenido</p>
 
   
   </div-->

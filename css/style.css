@@ -27,9 +27,11 @@ body{
 	display: contents;
 }
 
+
 .menu-item{
 	margin-left: -20px !important;
 }
+
 
 @media(max-width: 992px){
 	.menu-item{
@@ -40,6 +42,17 @@ body{
 
 
 	
+
+/**** Contenido base de datos **/
+#contenido h4 {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#contenido p{
+	text-align: center;
+	font-size: 2rem;
+}
 
 
 /*** Boton principal **/
@@ -451,7 +464,7 @@ a{
 
 .btn__slider {
 	display: inline-block;
-	padding: 13px 50px;
+	padding: 13px 20px;
 	color: #fff;
 	text-decoration: none;
 	position: relative;
@@ -794,10 +807,14 @@ dl, ol, ul {
 .section .row{
     margin-top: 5%;
     margin-bottom: 2%;
+	border: 3px solid #ac9500;
+	/* aqui esta el ancho del row*/
+	width: 95%;
+	margin: 0 auto;
 }
 .section .row .col-md-6{
     background: #f5f5f5;
-    margin-right: -2%;
+    margin-right: 0%;
     padding: 5%;
 }
 .section h3{
